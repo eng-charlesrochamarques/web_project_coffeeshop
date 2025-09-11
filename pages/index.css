@@ -32,13 +32,12 @@
   position: relative;
 }
 .header__content {
-  min-height: 607px; /* igual ou maior que a altura da imagem */
-  margin: 0 0 0 80px;
+  /*min-height: 607px; /* igual ou maior que a altura da imagem */
+  /*margin: 0 0 0 80px;*/
 }
 .header__title {
   max-width: 709px;
-  margin: 183px 0 28px;
-
+  /*margin: 183px 0 28px 80px;*/
   /*margin: 183px 0 0 80px;*/
   /*margin-top: 183px;
   margin-left: 80px;*/
@@ -48,6 +47,10 @@
   font-size: 58px;
   line-height: 72px;
   letter-spacing: -1px;
+  margin: 0;
+  position: absolute;
+  top: 252px;
+  left: 80px;
 }
 .header__span-accent {
   display: block;
@@ -68,6 +71,10 @@
   font-weight: normal;
   font-size: 20px;
   line-height: 30px;
+  margin: 0;
+  position: absolute;
+  top: 424px;
+  left: 80px;
 }
 .header__description-span {
   display: block;
