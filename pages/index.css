@@ -226,10 +226,11 @@
   background-position: center;
   display: flex;
   flex-direction: column;
-  padding: 100px 0px 120px;
+
   /*color: #fff;
   display: flex;
-  flex-direction: column;*/
+  flex-direction: column;
+  padding: 100px 0px 120px;*/
 
   /*display: flex;
   flex-direction: column;
@@ -240,9 +241,9 @@
   position: relative;*/
 }
 .reservation__title {
-  display: flex;
-  justify-content: center;
-
+  /*display: flex;
+  justify-content: center;*/
+  margin: 100px auto 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
@@ -250,7 +251,7 @@
   line-height: 52px;
 }
 .reservation__form {
-  margin: 0 auto;
+  margin: 0 auto 120px;
 }
 .form {
   display: flex;
