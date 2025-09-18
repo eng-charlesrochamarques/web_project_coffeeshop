@@ -226,6 +226,7 @@
   background-position: center;
   display: flex;
   flex-direction: column;
+  padding: 100px 0px 120px;
 
   /*color: #fff;
   display: flex;
@@ -243,7 +244,7 @@
 .reservation__title {
   /*display: flex;
   justify-content: center;*/
-  margin: 100px auto 80px;
+  margin: 0px auto 80px;
   font-family: "Inter";
   font-style: normal;
   font-weight: 500;
