@@ -1,40 +1,27 @@
-# Triple Espresso
-
 # ☕ Coffeeshop – Triple Peaks
 
-## 📌 Descrição do projeto
+## 📌 Project Description
 
-Este projeto é uma página web estática para uma cafeteria fictícia chamada Triple Peaks.
-A página apresenta:
+This project is a static web page for a fictional coffee shop called **Triple Peaks**.
 
-- Um header com logo, menu de navegação e slogan.
+The page includes:
 
-- Uma seção de receitas, incluindo vídeos incorporados do YouTube.
+- A header with logo, navigation menu, and slogan.
+- A recipes section with embedded YouTube videos.
+- A reservation form where users can enter name, number of guests, date/time, and email.
+- A footer with social media links and copyright information.
 
-- Um formulário de reserva, onde o usuário pode inserir nome, número de convidados, data/hora e e-mail.
+## 🛠️ Technologies Used
 
-- Um footer com links para redes sociais e informações de direitos autorais.
+- **HTML5** → semantic structure of the page
+- **CSS3** → styling (flexible layout, Google Fonts, and basic responsiveness)
+- **Accessibility best practices** → _alt_ attributes for images, _label_ for inputs, and focus for links
 
-## Tecnologias utilizadas:
+## 🔧 Future Improvements
 
-- HTML5 para a estrutura semântica da página.
+Planned enhancements to make the page more interactive and professional:
 
-- CSS3 para estilização (layout flexível, fontes do Google Fonts e responsividade básica).
-
-- Boas práticas de acessibilidade, como uso de alt em imagens, label nos inputs e foco para links.
-
-## 🔧 Planos de melhoria
-
-Durante o desenvolvimento, surgiram ideias de melhorias que poderiam tornar a página mais interativa e profissional:
-
-- Responsividade avançada
-
-- Implementar media queries para telas menores (smartphones e tablets), ajustando fontes, espaçamentos e imagens.
-
-- Validação do formulário com JavaScript
-
-- Garantir que todos os campos obrigatórios sejam preenchidos corretamente antes do envio.
-
-- Integração real do formulário
-
-- Implementar um botão que permita alternar entre tema claro e escuro.
+- Advanced responsiveness with **media queries** for smaller screens (smartphones and tablets)
+- **JavaScript form validation** to ensure required fields are filled in before submission
+- **Real form integration** for processing reservations
+- A **light/dark theme toggle button**
